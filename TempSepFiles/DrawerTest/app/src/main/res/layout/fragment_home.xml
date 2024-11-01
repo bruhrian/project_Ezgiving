@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <!--Trends shower-->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/round_rectangle5_15"
+            android:layout_marginTop="5dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_marginTop="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/announcement"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New and Trending Organisations"
+                    />
+                <ImageButton
+                    android:id="@+id/dropdown_btn"
+                    android:layout_marginStart="-5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dropdown_arrow"
+                    android:backgroundTint="@color/paleOrange"/>
+            </LinearLayout>
+
+            <!--TBC-->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/Trends_recView"
+                android:layout_marginStart="10dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                />
+        </LinearLayout>
+
+        <!--filter content-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/filter_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/filter"
+                android:backgroundTint="@color/paleOrange"
+                android:layout_marginEnd="5dp"
+                />
+
+            <Button
+                android:id="@+id/BookingFilter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:backgroundTint="@color/paleOrange"
+                android:text="Bookings"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_marginEnd="5dp"
+                />
+
+            <Button
+                android:id="@+id/DonationFilter_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:backgroundTint="@color/paleOrange"
+                android:text="Donation"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:layout_marginEnd="5dp"
+                />
+        </LinearLayout>
+
+        <!--Added Task/Activities-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:backgroundTint="@color/paleYellow">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/contents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarAlwaysDrawVerticalTrack="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
