@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Style-->
+    <color name="background">#FEEE91</color>
+    <color name="primary">#FF9D3D</color>
+    <color name="secondary">#FFBD73</color>
+
+    <!--LoginStuff-->
+    <color name="ClickableLogin">#01AED8</color>
+    <color name="Txtbox">#9FBDEC</color>
+</resources>
