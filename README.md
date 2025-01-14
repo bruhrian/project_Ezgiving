@@ -1,2 +1,2 @@
-# project_donateEz
+# project_EzGiving
 # Do not Touch anyt
