@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "883390937263",
+    "project_id": "idonateez",
+    "storage_bucket": "idonateez.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883390937263:android:ce9f5daa4923c9ca3cbc5a",
+        "android_client_info": {
+          "package_name": "com.example.ezcharity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe9MT_3baP_ZIILQqDxLPm-dPveQH4MLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883390937263:android:b13d9f5effba850d3cbc5a",
+        "android_client_info": {
+          "package_name": "com.example.loginfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe9MT_3baP_ZIILQqDxLPm-dPveQH4MLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
