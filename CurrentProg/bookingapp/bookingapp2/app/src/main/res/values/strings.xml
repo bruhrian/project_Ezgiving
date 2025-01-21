@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BookingApp</string>
+    <string-array name="organizations">
+        <item>Select Organization</item>
+        <item>Willing Hearts</item>
+        <item>SG Cancer Society</item>
+        <item>Community Chest</item>
+    </string-array>
+</resources>
