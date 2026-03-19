@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/round_back_primary5_15">
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/bottomSheetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirmation: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TableLayout
+        android:id="@+id/PaypalPaymentDetailsTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Organisation:"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/OrgTVPaypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OrganisationName"
+                android:textSize="15sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Amount($):"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/AmountTVPaypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount Number"
+                android:textSize="15sp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:backgroundTint="@color/secondary"
+        android:textColor="@color/black"
+        android:id="@+id/actionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Proceed to Paypal" />
+</LinearLayout>

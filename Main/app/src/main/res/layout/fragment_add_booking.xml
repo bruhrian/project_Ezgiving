@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.addbooking.addBooking">
+
+    <ImageView
+        android:visibility="visible"
+        android:src="@drawable/image"
+        android:id="@+id/orgImageView1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <!-- Organization Spinner -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Select an Organization:"
+        android:textColor="#333333"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/organizationSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="click to select"
+        android:background="@color/secondary"
+        android:padding="8dp" />
+
+    <!-- Select Date -->
+    <Button
+        android:id="@+id/selectDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/primary"
+        android:text="Select Date"
+        android:textColor="@color/black" />
+
+    <!-- Selected Date Display -->
+    <TextView
+        android:id="@+id/selectedDateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/secondary"
+        android:text="Date: None"
+        android:textColor="#444444"
+        android:textSize="16sp" />
+
+    <!-- Proceed Button -->
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary"
+        android:text="Proceed"
+        android:textColor="@color/black" />
+
+</LinearLayout>
