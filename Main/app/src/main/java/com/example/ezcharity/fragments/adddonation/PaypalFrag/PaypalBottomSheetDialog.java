@@ -31,11 +31,11 @@ public class PaypalBottomSheetDialog extends BottomSheetDialogFragment {
     private TextView orgTextView, amountTextView;
     private String organization, amount; // Store values for passing to ConfirmationActivity
 
-    String clientId = "AQTnlixTpNLyZkeisTQbCUnhiqEsGx7w7VIWDLJMfWR3OXnR49bEgrm3RrIN_gCem09OJF668nGFWMJH";
+    String clientId = "clientID";
 
     public static PayPalConfiguration configuration = new PayPalConfiguration()
             .environment(PayPalConfiguration.ENVIRONMENT_NO_NETWORK)
-            .clientId("AQTnlixTpNLyZkeisTQbCUnhiqEsGx7w7VIWDLJMfWR3OXnR49bEgrm3RrIN_gCem09OJF668nGFWMJH");
+            .clientId("clientID");
 
     private final ActivityResultLauncher<Intent> paymentLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
