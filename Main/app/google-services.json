@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "883390937263",
+    "project_number": "67",
     "project_id": "idonateez",
     "storage_bucket": "idonateez.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:883390937263:android:ce9f5daa4923c9ca3cbc5a",
+        "mobilesdk_app_id": "1:67:android:67",
         "android_client_info": {
           "package_name": "com.example.ezcharity"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCe9MT_3baP_ZIILQqDxLPm-dPveQH4MLU"
+          "current_key": "APIKEY"
         }
       ],
       "services": {
@@ -26,7 +26,7 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:883390937263:android:b13d9f5effba850d3cbc5a",
+        "mobilesdk_app_id": "mobileID",
         "android_client_info": {
           "package_name": "com.example.loginfirebase"
         }
@@ -34,7 +34,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCe9MT_3baP_ZIILQqDxLPm-dPveQH4MLU"
+          "current_key": "APIKEY"
         }
       ],
       "services": {
